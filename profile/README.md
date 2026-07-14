@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../logo.svg" alt="Rivulet logo" width="160" height="160">
+  <img src="logo.svg" alt="Rivulet logo" width="160" height="160">
 
   # Rivulet
 
