@@ -10,7 +10,7 @@
 Rivulet reimplements the [Stremio](https://www.stremio.com/) client experience
 inside Kodi: Discover/Search catalogs from the Stremio addon protocol, addon
 management (install from manifest URL), meta/stream resolution, and playback
-through a [stremio-server-go](https://github.com/M0Rf30/stremio-server-go)
+through a [Rivulet Engine](https://github.com/rivulet-kodi/rivulet-engine)
 streaming server. Optional login syncs your addon collection with your
 Stremio account.
 
@@ -22,6 +22,7 @@ Stremio account.
 | Repo | What it is |
 | --- | --- |
 | [plugin.video.rivulet](https://github.com/rivulet-kodi/plugin.video.rivulet) | The Kodi addon itself — source, docs, releases. |
+| [rivulet-engine](https://github.com/rivulet-kodi/rivulet-engine) | The streaming server Rivulet plays through — a pure-Go, IPv6-capable, drop-in replacement for Stremio's `server.js`. |
 | [repository.rivulet](https://github.com/rivulet-kodi/plugin.video.rivulet/tree/gh-pages) | Kodi add-on repository so Rivulet can auto-update. |
 | [rivulet-kodi.github.io](https://rivulet-kodi.github.io) | Project site with install instructions. |
 
